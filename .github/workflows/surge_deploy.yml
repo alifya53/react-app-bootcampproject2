@@ -21,4 +21,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build bootcamp_react_alifya.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./build bootcampreact-app.surge.sh --token ${{ secrets.SURGE_TOKEN }}
